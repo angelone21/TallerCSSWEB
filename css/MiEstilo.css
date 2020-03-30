@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/03/2020, 10:31:00 AM
+    Author     : 1102886426
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contenedor{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 5px 5px gray;
+
+}
+
+#header{
+    background-color: #ffffcf;
+    padding: 10px;
+    clear: both;
+}
+
+#header{
+    text-align: center;
+}
+
+#menu-contenido{
+    overflow: hidden;
+    background-color: #cccccc;
+}
+
+#menu{
+    width: 20%;
+    float: left;
+    padding: 5px;
+    
+}
+
+#menu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background: #cccc00;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+}
+
+#menu a:hover{
+    background: #ffff00;
+}
+
+#contenido{
+    background-color: #cccccc;
+    width: 80%;
+    float: right;
+    padding: 5px;
+}
+
+#pie{
+    background-color: #ffffcf;
+    padding: 10px;
+}
+
+#pie p{
+    text-align: center;
+    clear: both;
+}
+
+#contenido p{
+    text-align: justify;
+}
+
+#imagentitulo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.con:hover .zoom{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+
+.con{
+    overflow: hidden;
+}
+
+#imagennetflix:hover{
+    filter: opacity(.5);
+}
+
+#imagenamazon:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+
+#imagenyoutube:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+
+#imagendormir:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+#imagencarnes:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+
+#imagencarnes{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagenfrutas{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imagendormir{
+    width: 250;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagenwebex{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imagenmeet{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#imagenyoutube{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagentwitch{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagennetflix{
+    width: 150x;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagenamazon{
+    width: 150x;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagentwitch:hover{
+    filter: opacity(.5);
+}
+
+#imagenpersonas{
+    width: 250x;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imagenpersonas:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
